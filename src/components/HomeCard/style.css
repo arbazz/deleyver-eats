@@ -1,0 +1,51 @@
+.background-home-card{
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+
+}
+
+.card-home-actual{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    height: 430px;
+    width: 270px !important;
+    margin-top: 30px;
+    margin-left: 0 !important;
+}
+
+.image-actual-card{
+    width: 300px;
+}
+
+.card-actual-home-title{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.actual-card-tdex{
+    width: 80%;
+    text-align: center;
+}
+
+.card-home-actual-contaienr{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    transition: ease-in-out 300ms;
+}
+
+.card-home-actual-contaienr:hover{
+    box-shadow: none;
+}
+
+@media screen and (max-width: 556px) {
+    .adjust-home-card{
+        margin-left: 25px !important;
+    }
+  }

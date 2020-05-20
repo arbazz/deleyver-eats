@@ -1,0 +1,22 @@
+.earn-card-main-contaienr{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.earn-card-sec-cont{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: white;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+@media screen and (max-width: 480px) {
+    
+.earn-card-sec-cont{
+    width: 100%;
+}
+    
+}

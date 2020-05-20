@@ -1,0 +1,40 @@
+.puuchablity-of-segment{
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+.about-home-main-contianer{
+    display: flex;
+}
+
+.image-about-home{
+    width: 400px !important;
+    height: 250px;
+}
+.about-home-dexc{
+    width: 70%;
+}
+
+.about-text-home{
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 480px) {
+    
+.image-about-home{
+    width: 150px !important;
+    height: 150px;
+    margin-top: 100px;
+}
+.puuchablity-of-segment{
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+.about-home-dexc{
+    width: 180%;
+}
+
+  }

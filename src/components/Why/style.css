@@ -1,0 +1,20 @@
+.why-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+}
+.why-why-heading{
+    font-size: xx-large;
+    color: blue;
+}
+
+
+
+@media screen and (min-width: 480px) {
+
+    .why-reaseon{
+        width: 70% ;
+    }
+        
+    }

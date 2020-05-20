@@ -1,0 +1,51 @@
+.banner-contaienr{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    width: 90% !important;
+    align-self: center;
+    align-items: center;
+}
+.fast-delievery{
+
+}
+.delievery{
+    margin: 0;
+    font-size: 9vw;
+    font-weight: bolder
+}
+.banner-first{
+    margin-top: 50px;
+
+}
+.to-the-door{
+    margin-left: 5px;
+    margin-top: 0;
+    font-size: 5vw;
+    font-weight: bolder;
+}
+
+.custom-texteer{
+    margin-left: 5px;
+}
+.banner-image{
+    width: 500px;
+    height: 440px;
+}
+.button-order-banner{
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 480px) {
+    .banner-image{
+        width: 200px;
+        height: 180px;
+        margin-top: 60px;
+    }
+    .banner-contaienr{
+        margin-top: 0;
+    }
+    .banner-first{
+        margin-left: 20px;
+    }
+  }
