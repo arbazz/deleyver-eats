@@ -17,3 +17,10 @@
     color: blue;
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 480px) {
+  .image-cont-rest-sign-up{
+      display: none;
+  }
+}

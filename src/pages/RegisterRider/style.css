@@ -41,6 +41,10 @@
     padding-left: 10px;
     border-radius: 5px;
 }
+.row-direcrion-rider-singup{
+    display: flex;
+    margin-left: 20px;
+}
 
 @media screen and (max-width: 480px) {
     .reg-rider-main-container{

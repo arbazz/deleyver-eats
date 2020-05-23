@@ -10,7 +10,8 @@ import {
     RegisterRider,
     Optp,
     Login,
-    ResturantSignup
+    ResturantSignup,
+    Documents
 } from '../pages/index'
 
 export default function router() {
@@ -27,6 +28,7 @@ export default function router() {
                 <Route path="/optp" component={Optp}/>
                 <Route path="/login" component={Login}/>
                 <Route path="/signup-resturant" component={ResturantSignup}/>
+                <Route path="/documents" component={Documents}/>
             </Switch>
         </Router>
     )

@@ -1,0 +1,22 @@
+.loader-doc-main{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-doc{
+    border-width: 1px;
+    border-color: teal;
+    border-style: solid;
+    height: 50vh;
+}
+
+
+@media screen and (max-width: 580px) {
+  
+.image-doc{
+    height: 20vh;
+}
+    
+}

@@ -4,6 +4,7 @@ import RegisterRider from './RegisterRider/index'
 import Optp from './Optp/Optp'
 import Login from './Login/index';
 import ResturantSignup from './SignUpResturant/index';
+import Documents from './Documents/index';
 
 export {
     Loading,
@@ -11,5 +12,6 @@ export {
     RegisterRider,
     Optp,
     Login,
-    ResturantSignup
+    ResturantSignup,
+    Documents
 }

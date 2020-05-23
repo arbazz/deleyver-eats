@@ -14,6 +14,7 @@ import saveuser from './save/saveuser';
 import updateNumber from './update/updateNumber';
 import getUserInfo from './fetch/getUserInfo';
 import saveRestUser from './save/saveRestUser';
+import signIn from './auth/signIn';
 
 var firebaseConfig = {
     apiKey: "AIzaSyC4Ncgn4mFhO6AVObcLd5ElYp9t5arlZuw",
@@ -41,5 +42,6 @@ export {
     saveuser,
     getUserInfo,
     updateNumber,
-    saveRestUser
+    saveRestUser,
+    signIn
 };

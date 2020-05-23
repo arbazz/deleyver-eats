@@ -3,7 +3,7 @@ import './style.css'
 import { primaryColor } from '../../config/theme';
 import { NavBar, CopyRight } from '../../components/index'
 import { signup, checkuser, saveuser } from '../../firebase/index'
-
+import {Link} from 'react-router-dom';
 
 class REgisterRider extends React.Component {
     constructor(props) {
@@ -132,8 +132,15 @@ class REgisterRider extends React.Component {
                                 </button>}
                                {!!isloading && <div className="progress">
                                     <div className="indeterminate"></div>
+                                </div>}
+                                <div className="row">
+                                    <div className="col s12 row-direcrion-rider-singup">
+                                        <p>Have an account?</p>
+                                      <p style={{marginLeft: 10}}><Link to='/login'>Login</Link></p>
+                                    </div>
+
+
                                 </div>
-}
                             </div>
                         </div>
                         {/* --- fomr container end */}

@@ -15,7 +15,8 @@ class Optp extends React.Component {
             code: '',
             loading: false,
             isFecthing: true,
-            info: ''
+            info: '',
+            recap: false
         }
     }
 
@@ -35,20 +36,24 @@ class Optp extends React.Component {
         const that = this;
         this.setState({ loading: true })
         event.preventDefault();
-        window.appVerifier = new firebase.auth.RecaptchaVerifier(
-            "recaptcha-container",
-            {
-                size: "invisible"
-            }
-        );
+        if(!this.state.recap){
+            window.appVerifier = new firebase.auth.RecaptchaVerifier(
+                "recaptcha-container",
+                {
+                    size: "invisible"
+                }
+            );
+            this.setState({recap: true})
+        }
         const appVerifier = window.appVerifier;
         firebase
             .auth()
             .signInWithPhoneNumber(this.state.number, appVerifier)
             .then(function (confirmationResult) {
-                console.log("Success");
+
                 that.setState({
-                    isSend: false
+                    isSend: false,
+                    loading: false 
                 })
                 // SMS sent. Prompt user to type the code from the message, then sign the
                 // user in with confirmationResult.confirm(code).
@@ -60,8 +65,11 @@ class Optp extends React.Component {
             });
     };
     onVerifyCodeSubmit = event => {
+        const that = this;
         const { info, number } = this.state;
         event.preventDefault();
+        this.setState({ loading: true })
+
         const verificationId = this.state.code;
         window.confirmationResult
             .confirm(verificationId)
@@ -73,15 +81,18 @@ class Optp extends React.Component {
                     if(info){
                         updateNumber(number, info.docId, idToken).then(() => {
                             alert("sucess");
+                            that.props.history.push("/login");
                         })
                     }else{
                         alert("something went wrong try again!")
+                        this.setState({loading: false})
                     }
                 });
             })
             .catch(function (error) {
                 // User couldn't sign in (bad verification code?)
                 console.error("Error while checking the verification code", error);
+                this.setState({loading: false})
                 window.alert(
                     "Error while checking the verification code:\n\n" +
                     error.code +
@@ -106,6 +117,9 @@ class Optp extends React.Component {
                             <p className="margin-0 optp-digi-prompt"><b>Enter six digit verification code</b></p>
                             <input className="input-optp-enter-digits" onChange={(e) => { this.setState({ code: e.target.value }) }} />
                             <a className="waves-effect waves-light btn another-optp-button-submit" onClick={this.onVerifyCodeSubmit}>Submit</a>
+                            {loading && <div class="progress">
+                                    <div class="indeterminate"></div>
+                                </div>}
                         </> :
                             <>
                                 <p className="margin-0">Phone Number</p>
