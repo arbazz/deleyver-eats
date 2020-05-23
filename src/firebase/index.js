@@ -8,8 +8,12 @@ import "firebase/analytics";
 // Add the Firebase products that you want to use
 import "firebase/auth";
 import "firebase/firestore";
-import signup from './auth/signup'
-import checkuser from './auth/checkuser'
+import signup from './auth/signup';
+import checkuser from './auth/checkuser';
+import saveuser from './save/saveuser';
+import updateNumber from './update/updateNumber';
+import getUserInfo from './fetch/getUserInfo';
+import saveRestUser from './save/saveRestUser';
 
 var firebaseConfig = {
     apiKey: "AIzaSyC4Ncgn4mFhO6AVObcLd5ElYp9t5arlZuw",
@@ -25,12 +29,17 @@ var firebaseConfig = {
 if (!firebase.apps.length) {
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
-}
+    firebase.firestore()
+};
 // Initialize Firebase
 
 export default firebase;
 
 export {
     signup,
-    checkuser
-}
+    checkuser,
+    saveuser,
+    getUserInfo,
+    updateNumber,
+    saveRestUser
+};

@@ -1,0 +1,9 @@
+.simple-nav-main-container{
+    display: flex;
+    justify-content: center;
+}
+
+.simple-nav-text-logo{
+    font-size: large;
+    font-weight: bolder;
+}

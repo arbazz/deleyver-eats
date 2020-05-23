@@ -13,8 +13,8 @@ export default function Banner() {
                     <h4 className="purple-text text-darken-2 to-the-door">to the door</h4>
                     <p className=" custom-texteer">your custom content it could be tag line or moto or anything important to note...</p>
 
-                    <button class="btn waves-effect waves-light button-order-banner" style={{backgroundColor: primaryColor}} type="submit" name="action">Order
-                         <i class="material-icons right">send</i>
+                    <button className="btn waves-effect waves-light button-order-banner" style={{backgroundColor: primaryColor}} type="submit" name="action">Order
+                         <i className="material-icons right">send</i>
                     </button>
 
                 </div>

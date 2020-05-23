@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
 import { useSpring, animated } from 'react-spring'
-import { NavBar, Banner, HomeCard, AboutCard, Footer, EarnCard, Why } from '../../components/index'
+import { NavBar, Banner, HomeCard, AboutCard, Footer, EarnCard, Why, CopyRight } from '../../components/index'
 
 
 function Home() {
@@ -16,6 +16,7 @@ function Home() {
             <EarnCard />
             <Why />
             <Footer />
+            <CopyRight/>
         </animated.div>
     );
 }

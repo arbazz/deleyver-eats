@@ -1,0 +1,19 @@
+.image-sign-up-rest{
+    width: 30vw;
+}
+
+.image-cont-rest-sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: brown; */
+    width: 70vw;
+    background-color: #f0f3f7;
+}
+
+.back-sgin-up-rest{
+    margin-top: -5px;
+    color: blue;
+    cursor: pointer;
+}

@@ -6,6 +6,8 @@ import Footer from './Footer/Footer'
 import EarnCard from './EarnCard/EarnCard'
 import Why from './Why/Why'
 import CopyRight from './Copyright/Copy'
+import SimpleNav from './SimpleNav/SimpleNav'
+import CircleLoader from './CircleLoader/CircleLoader';
 
 export {
     NavBar,
@@ -15,5 +17,7 @@ export {
     Footer,
     EarnCard,
     Why,
-    CopyRight
+    CopyRight,
+    SimpleNav,
+    CircleLoader
 }

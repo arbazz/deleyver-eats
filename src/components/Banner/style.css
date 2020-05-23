@@ -36,6 +36,18 @@
     border-radius: 30px;
 }
 
+.edit-text-optop{
+    margin-left: 10px;
+    color: blue;
+    font-style: oblique;
+    cursor: pointer;
+}
+
+.cirlce-loading-center{
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width: 480px) {
     .banner-image{
         width: 200px;
