@@ -8,6 +8,7 @@ import Why from './Why/Why'
 import CopyRight from './Copyright/Copy'
 import SimpleNav from './SimpleNav/SimpleNav'
 import CircleLoader from './CircleLoader/CircleLoader';
+import ListTable from './ListTable/ListTable';
 
 export {
     NavBar,
@@ -19,5 +20,6 @@ export {
     Why,
     CopyRight,
     SimpleNav,
-    CircleLoader
+    CircleLoader,
+    ListTable
 }

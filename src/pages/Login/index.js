@@ -33,7 +33,8 @@ class Login extends React.Component {
                 localStorage.setItem("docId", ress.docId);
                 console.log(ress);
                 if(ress.data.rest){
-                    alert("you are rest");
+                    // alert("you are rest");
+                    this.props.history.push("/resturant-home");
                 }else{
                     // alert("you are rider");
                     this.props.history.push("/documents");

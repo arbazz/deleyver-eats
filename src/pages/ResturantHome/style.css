@@ -1,0 +1,175 @@
+.welcome-main-rest-home{
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    margin: 0;
+    transition: ease-in-out 300ms;
+}
+
+.cont-rest-home-welcome{
+    margin-left: 30px !important;
+    width: auto !important;
+
+}
+
+.welcome-text-home-welcome{
+    font-size: xx-large;
+
+}
+
+.main-cont-rest-home{
+    background-color: #f5f8fa;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0;
+    transition: ease-in-out 300ms;
+
+}
+
+.profile-main-rest-home{
+    background-color: white;   
+    width: 30%;
+    /* border: gray 0.001px solid; */
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: ease-in-out 2s;
+}
+
+.contaienr-rest-home-main-widhte{
+    width: 90%;
+    display: flex;
+    /* background-color: tomato; */
+    margin-left: 5%;
+    justify-content: space-evenly;
+}
+
+.order-rest-main-home{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cirlce-main-rest-home{
+    width: 52px;
+    border-radius: 180px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #ebfaf9;
+}
+
+.name-text-main-rest-home{
+    font-size: 25px;
+    padding-bottom: 0 !important;
+    margin-bottom: 0;
+}
+
+.email-main-rest-home{
+    margin: 0 !important;
+    padding: 0 !important;
+    color: grey;;
+}
+.main-rest-home-number{
+    margin: 0 !important;
+    padding: 0 !important;
+    color: grey;
+    margin-bottom: 20px !important;
+}
+
+.main-rest-home-setting-seconf{
+    padding-top: 30px;
+    border-top: green 1px solid;
+}
+
+.icon-cont-resgt-main{
+    display: flex;
+}
+
+.icon-cla-main-rest-home{
+    height: 25px;
+    margin-top: 13px;
+    padding-right: 10px;
+    color: royalblue;
+}
+
+.order-host-cont-main-rest-home{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: green; */
+}
+
+.other-order-rest-main-home{
+    display: flex;
+    background-color: green;
+    justify-content: space-evenly;
+}
+
+.tr-table-rest-hpme{
+    background-color: white !important;
+}
+
+.pending-rest-home{
+    color: blue;
+}
+
+.price-rest-home{
+    color: green;
+}
+
+.hoverer-main-rest-home{
+    transition: ease-in-out 300ms;
+    cursor: pointer;
+}
+
+.hoverer-main-rest-home:hover{
+    color: red;
+}
+
+.row-main-rest-home-inpu-create{
+    display: flex;
+
+}
+
+.input-create-rest-home{
+    width: 50%;
+    padding-right: 20px;
+}
+.input-create-rest-home-full{
+    width: 100%;
+}
+
+.btn-create-request-done{
+    display: flex;
+    justify-content: center;
+}
+
+.arrouw-back-add-new-cus{
+    cursor: pointer;
+}
+
+.hover{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 580px) {
+  
+  
+.welcome-text-home-welcome{
+    font-size: large;
+}
+
+
+.profile-main-rest-home{
+    display: none;
+}
+
+
+.order-rest-main-home{
+    width: 100%;
+}
+
+}

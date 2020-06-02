@@ -11,7 +11,10 @@ import {
     Optp,
     Login,
     ResturantSignup,
-    Documents
+    Documents,
+    ResturnatHome,
+    Admin,
+    AdminHome
 } from '../pages/index'
 
 export default function router() {
@@ -24,11 +27,18 @@ export default function router() {
                 <Route path="/home">
                     <Home />
                 </Route>
+                <Route path="/Admin">
+                    <Admin />
+                </Route>
+                <Route path="/home-admin">
+                    <AdminHome />
+                </Route>
                 <Route path="/register-rider" component={RegisterRider}/>
                 <Route path="/optp" component={Optp}/>
                 <Route path="/login" component={Login}/>
                 <Route path="/signup-resturant" component={ResturantSignup}/>
                 <Route path="/documents" component={Documents}/>
+                <Route path="/resturant-home" component={ResturnatHome}/>
             </Switch>
         </Router>
     )

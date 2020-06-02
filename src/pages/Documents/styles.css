@@ -9,14 +9,16 @@
     border-width: 1px;
     border-color: teal;
     border-style: solid;
-    height: 50vh;
+    height: 30vh;
 }
 
 
 @media screen and (max-width: 580px) {
   
 .image-doc{
+    width: 20vh;
     height: 20vh;
 }
+
     
 }

@@ -5,6 +5,9 @@ import Optp from './Optp/Optp'
 import Login from './Login/index';
 import ResturantSignup from './SignUpResturant/index';
 import Documents from './Documents/index';
+import ResturnatHome from './ResturantHome/index';
+import Admin from './Admin/index';
+import AdminHome from './Admin/Home';
 
 export {
     Loading,
@@ -13,5 +16,8 @@ export {
     Optp,
     Login,
     ResturantSignup,
-    Documents
+    Documents,
+    ResturnatHome,
+    Admin,
+    AdminHome
 }
