@@ -1,0 +1,21 @@
+.nav-wrapper{
+    background-color: blue;
+}
+
+.sidenavs {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    margin: 0px;
+    height: auto;
+}
+
+.link-text{
+    font-weight: bold;
+    color: white !important;
+}
+
+.nav-li{
+    padding-top: 20px;
+    margin-left: 20px;
+}

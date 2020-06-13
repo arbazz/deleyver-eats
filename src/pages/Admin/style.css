@@ -1,0 +1,226 @@
+.login-main-admin-contianer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: royalblue;
+    height: 100vh;
+    align-content: center;
+    align-items: center;
+}
+
+.login-text-main-admin{
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: -30px;
+}
+
+.login-admin-contienr{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 18px 41px -16px rgba(173,154,173,0.79);
+    -moz-box-shadow: 0px 18px 41px -16px rgba(173,154,173,0.79);
+    box-shadow: 0px 18px 41px -16px rgba(173,154,173,0.79);
+    width: 30vw;
+    padding: 30px;
+}
+
+.table-main-rest{
+    width: 70vw;
+    text-overflow: clip;
+}
+
+.td-table{
+    width: 20vw;
+    overflow: auto;
+}
+
+.btn-admin-login{
+    display: flex;
+    justify-content: center;
+    background-color: royalblue;
+}
+
+.prog-admin{
+    background-color: royalblue;
+}
+
+.input-cont-admin{
+
+}
+
+.logo-admin-nav{
+    width: 70px;
+}
+
+.admin-main-side-container{
+    background-color: #0e0d29;
+    height: 100vh;
+    width: 20vw;
+}
+
+.mian-admin-home-contianer{
+    display: flex;
+}
+
+.rider-icon-admin-side{
+    margin-left: -30px;
+}
+
+.rider-icon-admin-side-set{
+    margin-left: -20px;
+}
+
+.side-admin-btn-bar{
+    color: white !important;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* cursor: pointer; */
+    /* padding: 10px; */
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.main-container-of-btn-side-amdin:hover{
+    background-color: #5c81ee
+}
+
+.main-container-of-btn-side-amdin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    transition: ease-out 300ms;
+    cursor: pointer;
+}
+
+.icon-admin-side-main{
+    font-size: 20px;
+    color: white;
+    padding-right: 10px;
+}
+
+.main-admin-list-container{
+    /* background-color: tomato; */
+    display: flex;
+    width: 70vw;
+    margin-left: 5vw;
+    flex-direction: column;
+}
+.second-list-admin-container{
+    display: flex;
+}
+
+.card-list-main-admin{
+    padding: 10px;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 20px;
+    margin-right: 3vw;
+}
+
+.third-admin-list-contianer{
+    background-color: white;
+    width: 67vw;
+    height: 30%;
+    margin-top: 30px;
+}
+
+.new-users-admin-list{
+    padding-left: 20px;
+    border-bottom: royalblue 1px solid;
+    padding-bottom: 10px;
+}
+
+.item-new-admin-list-coontainre{
+
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.edit-rest-admin{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.charge-main-admin-home{
+    display: flex;
+    flex-direction: column;
+    width: 78vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.charge-admin-gtext{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: -150px;
+}
+.sec-charfe-amin{
+    display: flex;
+    flex-direction: column;
+    width: 20vw
+}
+.charge-textinput-admin{
+    margin-bottom: 30px !important;
+}
+
+@media screen and (max-width: 580px) {
+    .login-admin-contienr{
+        width: 90vw;
+    }
+
+    .admin-main-side-container{
+        width: 10vw;
+    }    
+    .side-admin-btn-bar{
+        display: none;
+    }
+
+    .icon-admin-side-main{
+        padding: 0;
+        font-size: 30px;
+    }
+    .main-admin-list-container{
+        width: 80vw;
+    }
+    .third-admin-list-contianer{
+        width: 77vw;
+    }
+    .sec-charfe-amin{
+        width: 40vw;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+    .login-admin-contienr{
+        width: 90vw;
+    }
+    .rider-icon-admin-side{
+        margin-left: 0;
+    }
+    .rider-icon-admin-side-set {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .login-admin-contienr{
+        width: 25vw;
+    }
+   
+}

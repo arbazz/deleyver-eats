@@ -1,0 +1,94 @@
+.container-main-ride-rmap{
+    display: flex;
+    flex-direction: row;
+}
+
+.side-bar-rider-page-rider{
+    background-color: royalblue;
+    width: 25%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-main-text-rider{
+    color: white;
+    font-size: x-large;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.route-map-detils-rider-map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.route-details-text-rider-map{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.input-text-rider-details-map-page{
+    /* background-color: yellow; */
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.icon-rider-page-map{
+    padding-right: 10px;
+    margin-top: -13px;
+}
+
+.actual-input-detials-map-page{
+    border-color: white !important;
+    border: white 1px solid !important;
+    border-radius: 20px !important;
+    color: white;
+    padding-left: 10px !important;
+}
+
+.extr-a-rider-map-justo{
+    display: flex;
+    /* background-color: grey; */
+    width: 80%;
+    margin-left: 10%;
+    justify-content: space-between;
+
+}
+
+.extra-details-rider-map{
+    width: 100%;
+}
+
+.extra-extra-bold{
+    font-weight: bold;
+}
+
+.confirm-rider-map-page-btn{
+    margin-top: 50px;
+    width: 50%;
+    border-radius: 40px;
+}
+
+.map-icon-pin-rider{
+    font-size: 3rem;
+    padding: 0 !important;
+    margin: 0 !important;
+    color: royalblue;
+    font-weight: bolder;
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .container-main-ride-rmap{
+        display: none;
+    }
+}
