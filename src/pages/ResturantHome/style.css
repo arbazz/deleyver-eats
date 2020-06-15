@@ -167,6 +167,33 @@
     margin-bottom: 4px;
     border-radius: 10px;
 }
+
+.no-register-toast{
+    /* background-color: cadetblue; */
+    align-self: flex-start;
+    padding: 4px 15px;
+    border-radius: 10px;
+}
+
+.regoster-btn-top{
+    margin-top: 40px;
+    
+}
+
+.sec-start-prder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.main-start-order-dic{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
 @media screen and (max-width: 580px) {
   
   

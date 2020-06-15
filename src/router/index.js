@@ -16,7 +16,8 @@ import {
     Admin,
     AdminHome,
     RiderHome,
-    RiderMap
+    RiderMap,
+    Success
 } from '../pages/index'
 
 export default function router() {
@@ -43,6 +44,7 @@ export default function router() {
                 <Route path="/resturant-home" component={ResturnatHome}/>
                 <Route  path="/rider-home" component={RiderHome}/>
                 <Route exact path="/rider-map/:id" component={RiderMap}/>
+                <Route  path="/Success" component={Success}/>
             </Switch>
         </Router>
     )

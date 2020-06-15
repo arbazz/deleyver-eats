@@ -10,6 +10,7 @@ import Admin from './Admin/index';
 import AdminHome from './Admin/Home';
 import RiderHome from './Rider/Home';
 import RiderMap from './RiderMap/index';
+import Success from './Sucess/index';
 
 export {
     Loading,
@@ -23,5 +24,6 @@ export {
     Admin,
     AdminHome,
     RiderHome,
-    RiderMap
+    RiderMap,
+    Success
 }

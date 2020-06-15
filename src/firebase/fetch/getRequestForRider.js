@@ -4,7 +4,7 @@ import firebase from '../index';
 export default function getRequestForRider(){
     return new Promise(async(resolve , reject) => {
         let data = [];
-        await firebase.firestore().collection("requests").where("pending", "==", true)
+        await firebase.firestore().collection("requests").where("pending", "==", true).where("paid", "==", true)
         .get()
         .then(function(querySnapshot) {
             querySnapshot.forEach(function(doc) {

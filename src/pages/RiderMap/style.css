@@ -86,7 +86,9 @@
 
 }
 
-
+#deckgl-wrapper{
+    margin-left: 25vw;
+}
 @media screen and (max-width: 480px) {
     .container-main-ride-rmap{
         display: none;

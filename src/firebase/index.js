@@ -38,6 +38,10 @@ import updateStatusOfRequestByRider from './update/updateStatusOfRequestByRider'
 import checkCurrentStatusOfRequest from './check/checkCurrentStatusOfRequest';
 import getActiveRequestForRider from './fetch/getActiveRequestForRider';
 import getInfoForRiderMap from './fetch/getInfoForRiderMap';
+import updateStatusOfReqeust from './update/updateStatusOfRequest';
+import updateResturantWallet from './update/updateResturantWallet';
+import updateRequest from './update/updateRequest';
+import updateRiderAmount from './update/updateResturantWallet';
 
 var firebaseConfig = {
     apiKey: "AIzaSyC4Ncgn4mFhO6AVObcLd5ElYp9t5arlZuw",
@@ -88,5 +92,9 @@ export {
     updateStatusOfRequestByRider,
     checkCurrentStatusOfRequest,
     getActiveRequestForRider,
-    getInfoForRiderMap
+    getInfoForRiderMap,
+    updateStatusOfReqeust,
+    updateResturantWallet,
+    updateRequest,
+    updateRiderAmount
 };

@@ -15,9 +15,9 @@ class ResturnatHome extends React.Component {
         super(props);
         this.state = {
             loading: true,
-            orderHistory: false,
+            orderHistory: true,
             createRequest: false,
-            customers: true,
+            customers: false,
             notidications: false,
             wallet: false,
             promotions: false,
@@ -124,7 +124,7 @@ class ResturnatHome extends React.Component {
                                 {createRequest && <CreateRequest cus={this.state.cus} />}
                                 {customers && <Customers props={this.state.cus} />}
                                 {notidications && <Notificatios />}
-                                {wallet && <Wallet />}
+                                {wallet && <Wallet user={user}/>}
                                 {promotions && <Promotions />}
 
                             </div>

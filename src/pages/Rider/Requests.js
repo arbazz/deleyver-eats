@@ -52,7 +52,7 @@ export default function Requests({ requests }) {
                         </div>
                     )
                 })}
-
+                {!requests.length && <p>No new request yet</p>}
             </div>
         </div>
     )

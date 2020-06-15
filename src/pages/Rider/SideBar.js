@@ -1,24 +1,36 @@
 import React from 'react';
 
 
-export default function SideBar({setDashborad, setActiveRequest, setNewRequest, setCharge}) {
+export default function SideBar({setDashborad, setActiveRequest, setNewRequest, setCharge, setSetting}) {
 
     const handleDashboard = () => {
         setDashborad(true);
         setActiveRequest(false);
         setNewRequest(false)
+        setSetting(false)
+
     }
 
     const handleResturants = () => {
         setDashborad(false);
         setNewRequest(false)
         setActiveRequest(true)
+        setSetting(false)
+
     }
 
     const handleNewRequest = () => {
         setNewRequest(true)
         setDashborad(false)
         setActiveRequest(false)
+        setSetting(false)
+    }
+    
+    const handelSetting = () => {
+        setNewRequest(false)
+        setDashborad(false)
+        setActiveRequest(false)
+        setSetting(true)
     }
 
     return (
@@ -39,7 +51,7 @@ export default function SideBar({setDashborad, setActiveRequest, setNewRequest, 
                 <i className="material-icons icon-admin-side-main rider-icon-admin-side">attach_money</i>
                 <p className="side-admin-btn-bar">Charge</p>
             </div>
-            <div className="main-container-of-btn-side-amdin">
+            <div className="main-container-of-btn-side-amdin"  onClick={handelSetting}>
                 <i className="material-icons icon-admin-side-main rider-icon-admin-side-set">settings</i>
                 <p className="side-admin-btn-bar">settings</p>
             </div>
